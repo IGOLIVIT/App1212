@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="AccumModel" representedClassName="AccumModel" syncable="YES" codeGenerationType="class">
+        <attribute name="acDescr" optional="YES" attributeType="String"/>
+        <attribute name="acName" optional="YES" attributeType="String"/>
+        <attribute name="acPrice" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="GoalModel" representedClassName="GoalModel" syncable="YES" codeGenerationType="class">
+        <attribute name="gDescr" optional="YES" attributeType="String"/>
+        <attribute name="gName" optional="YES" attributeType="String"/>
+        <attribute name="gPhoto" optional="YES" attributeType="String"/>
+        <attribute name="gPrice" optional="YES" attributeType="String"/>
+    </entity>
+</model>
