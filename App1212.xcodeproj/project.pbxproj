@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		789994142D490CC80013B0C9 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789994132D490CC80013B0C9 /* RegistrationView.swift */; };
+		789994162D49287A0013B0C9 /* RegistratiobViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789994152D49287A0013B0C9 /* RegistratiobViewModel.swift */; };
+		789994192D4934F20013B0C9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789994182D4934F20013B0C9 /* LoginView.swift */; };
+		7899941C2D49372C0013B0C9 /* RegView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899941B2D49372C0013B0C9 /* RegView.swift */; };
 		78BFE5E92D354CF80081F51F /* App1212App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE5E82D354CF80081F51F /* App1212App.swift */; };
 		78BFE5EB2D354CF80081F51F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE5EA2D354CF80081F51F /* ContentView.swift */; };
 		78BFE5ED2D354CF90081F51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78BFE5EC2D354CF90081F51F /* Assets.xcassets */; };
@@ -20,9 +24,7 @@
 		78BFE6132D3550860081F51F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE6122D3550860081F51F /* HomeView.swift */; };
 		78BFE6152D35508C0081F51F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE6142D35508C0081F51F /* HomeViewModel.swift */; };
 		78BFE6172D3550930081F51F /* AccuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE6162D3550930081F51F /* AccuView.swift */; };
-		78BFE6192D3550990081F51F /* AccuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE6182D3550980081F51F /* AccuViewModel.swift */; };
 		78BFE61B2D35509F0081F51F /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE61A2D35509F0081F51F /* GoalsView.swift */; };
-		78BFE61D2D3550A60081F51F /* GoalsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE61C2D3550A60081F51F /* GoalsViewModel.swift */; };
 		78BFE61F2D3550AD0081F51F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE61E2D3550AD0081F51F /* SettingsView.swift */; };
 		78BFE6212D35521C0081F51F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE6202D35521C0081F51F /* CoreDataStack.swift */; };
 		78BFE6232D3552210081F51F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE6222D3552210081F51F /* Array.swift */; };
@@ -33,6 +35,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		789994132D490CC80013B0C9 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		789994152D49287A0013B0C9 /* RegistratiobViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistratiobViewModel.swift; sourceTree = "<group>"; };
+		789994182D4934F20013B0C9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7899941B2D49372C0013B0C9 /* RegView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegView.swift; sourceTree = "<group>"; };
 		78BFE5E52D354CF80081F51F /* App1212.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App1212.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BFE5E82D354CF80081F51F /* App1212App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App1212App.swift; sourceTree = "<group>"; };
 		78BFE5EA2D354CF80081F51F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,9 +54,7 @@
 		78BFE6122D3550860081F51F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		78BFE6142D35508C0081F51F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		78BFE6162D3550930081F51F /* AccuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccuView.swift; sourceTree = "<group>"; };
-		78BFE6182D3550980081F51F /* AccuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccuViewModel.swift; sourceTree = "<group>"; };
 		78BFE61A2D35509F0081F51F /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
-		78BFE61C2D3550A60081F51F /* GoalsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewModel.swift; sourceTree = "<group>"; };
 		78BFE61E2D3550AD0081F51F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		78BFE6202D35521C0081F51F /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		78BFE6222D3552210081F51F /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
@@ -71,6 +75,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		789994122D490CBA0013B0C9 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				7899941A2D4937210013B0C9 /* RegView */,
+				789994172D4934DF0013B0C9 /* LginView */,
+				789994132D490CC80013B0C9 /* RegistrationView.swift */,
+				789994152D49287A0013B0C9 /* RegistratiobViewModel.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		789994172D4934DF0013B0C9 /* LginView */ = {
+			isa = PBXGroup;
+			children = (
+				789994182D4934F20013B0C9 /* LoginView.swift */,
+			);
+			path = LginView;
+			sourceTree = "<group>";
+		};
+		7899941A2D4937210013B0C9 /* RegView */ = {
+			isa = PBXGroup;
+			children = (
+				7899941B2D49372C0013B0C9 /* RegView.swift */,
+			);
+			path = RegView;
+			sourceTree = "<group>";
+		};
 		78BFE5DC2D354CF80081F51F = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +207,7 @@
 		78BFE5FE2D35500D0081F51F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				789994122D490CBA0013B0C9 /* Registration */,
 				78BFE6022D35502D0081F51F /* Settings */,
 				78BFE6012D3550290081F51F /* Goals */,
 				78BFE6002D3550210081F51F /* Accumulations */,
@@ -198,7 +230,6 @@
 			children = (
 				78BFE6262D3558EB0081F51F /* AddAcc */,
 				78BFE6162D3550930081F51F /* AccuView.swift */,
-				78BFE6182D3550980081F51F /* AccuViewModel.swift */,
 			);
 			path = Accumulations;
 			sourceTree = "<group>";
@@ -209,7 +240,6 @@
 				78BFE62C2D35675E0081F51F /* GoalDetail */,
 				78BFE6292D3561680081F51F /* AddGoal */,
 				78BFE61A2D35509F0081F51F /* GoalsView.swift */,
-				78BFE61C2D3550A60081F51F /* GoalsViewModel.swift */,
 			);
 			path = Goals;
 			sourceTree = "<group>";
@@ -320,6 +350,7 @@
 				78BFE6212D35521C0081F51F /* CoreDataStack.swift in Sources */,
 				78BFE61F2D3550AD0081F51F /* SettingsView.swift in Sources */,
 				78BFE6252D35522B0081F51F /* DateConvert.swift in Sources */,
+				789994142D490CC80013B0C9 /* RegistrationView.swift in Sources */,
 				78BFE6132D3550860081F51F /* HomeView.swift in Sources */,
 				78BFE5EB2D354CF80081F51F /* ContentView.swift in Sources */,
 				78BFE6092D35506B0081F51F /* LoadingView.swift in Sources */,
@@ -327,14 +358,15 @@
 				78BFE6172D3550930081F51F /* AccuView.swift in Sources */,
 				78BFE6152D35508C0081F51F /* HomeViewModel.swift in Sources */,
 				78BFE6072D3550580081F51F /* CoreModel.xcdatamodeld in Sources */,
-				78BFE6192D3550990081F51F /* AccuViewModel.swift in Sources */,
 				78BFE6112D35507E0081F51F /* TabBar.swift in Sources */,
 				78BFE60B2D3550700081F51F /* R1.swift in Sources */,
 				78BFE62B2D3561730081F51F /* AddGoal.swift in Sources */,
 				78BFE5E92D354CF80081F51F /* App1212App.swift in Sources */,
-				78BFE61D2D3550A60081F51F /* GoalsViewModel.swift in Sources */,
+				789994192D4934F20013B0C9 /* LoginView.swift in Sources */,
 				78BFE60D2D3550740081F51F /* R2.swift in Sources */,
+				7899941C2D49372C0013B0C9 /* RegView.swift in Sources */,
 				78BFE62E2D3567670081F51F /* GoalDetail.swift in Sources */,
+				789994162D49287A0013B0C9 /* RegistratiobViewModel.swift in Sources */,
 				78BFE61B2D35509F0081F51F /* GoalsView.swift in Sources */,
 				78BFE6282D3558F20081F51F /* AddAcc.swift in Sources */,
 			);
@@ -484,7 +516,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App1212;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -523,7 +555,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App1212;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

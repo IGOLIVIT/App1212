@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct R2: View {
-    
-    @AppStorage("status") var status: Bool = false
-    
+        
     var body: some View {
 
         ZStack {
@@ -33,22 +31,19 @@ struct R2: View {
                 Spacer()
                 
                 VStack(spacing: 18) {
-                    
-                    Text("Welcome to SmartSave Tracker! ")
-                        .foregroundColor(.white)
-                        .font(.system(size: 32, weight: .bold))
-                        .multilineTextAlignment(.center)
-                    
+
                     Text("Track investments, set goals, and achieve financial freedom!")
                         .foregroundColor(.white.opacity(0.6))
                         .font(.system(size: 16, weight: .regular))
                         .multilineTextAlignment(.center)
+                        .padding(.top, 30)
                     
                     Spacer()
                     
-                    Button(action: {
+                    NavigationLink(destination: {
                         
-                        status = true
+                        RegistrationView()
+                            .navigationBarBackButtonHidden()
                         
                     }, label: {
                         
