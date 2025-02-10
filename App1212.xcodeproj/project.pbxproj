@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7874ED392D5A74F7000119B4 /* U1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874ED382D5A74F7000119B4 /* U1.swift */; };
+		7874ED3B2D5A74FF000119B4 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874ED3A2D5A74FF000119B4 /* Reviews.swift */; };
+		7874ED3D2D5A7505000119B4 /* Not.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874ED3C2D5A7505000119B4 /* Not.swift */; };
+		7874ED3F2D5A7736000119B4 /* Srtgbb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874ED3E2D5A7736000119B4 /* Srtgbb.swift */; };
+		7874ED412D5A773D000119B4 /* Dgertv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874ED402D5A773D000119B4 /* Dgertv.swift */; };
+		7874ED432D5A7743000119B4 /* Wrsf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874ED422D5A7743000119B4 /* Wrsf.swift */; };
 		789994142D490CC80013B0C9 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789994132D490CC80013B0C9 /* RegistrationView.swift */; };
 		789994162D49287A0013B0C9 /* RegistratiobViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789994152D49287A0013B0C9 /* RegistratiobViewModel.swift */; };
 		789994192D4934F20013B0C9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789994182D4934F20013B0C9 /* LoginView.swift */; };
@@ -35,6 +41,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7874ED382D5A74F7000119B4 /* U1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U1.swift; sourceTree = "<group>"; };
+		7874ED3A2D5A74FF000119B4 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		7874ED3C2D5A7505000119B4 /* Not.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Not.swift; sourceTree = "<group>"; };
+		7874ED3E2D5A7736000119B4 /* Srtgbb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Srtgbb.swift; sourceTree = "<group>"; };
+		7874ED402D5A773D000119B4 /* Dgertv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dgertv.swift; sourceTree = "<group>"; };
+		7874ED422D5A7743000119B4 /* Wrsf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrsf.swift; sourceTree = "<group>"; };
 		789994132D490CC80013B0C9 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		789994152D49287A0013B0C9 /* RegistratiobViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistratiobViewModel.swift; sourceTree = "<group>"; };
 		789994182D4934F20013B0C9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -75,6 +87,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7874ED372D5A74EA000119B4 /* UOB */ = {
+			isa = PBXGroup;
+			children = (
+				7874ED382D5A74F7000119B4 /* U1.swift */,
+				7874ED3A2D5A74FF000119B4 /* Reviews.swift */,
+				7874ED3C2D5A7505000119B4 /* Not.swift */,
+			);
+			path = UOB;
+			sourceTree = "<group>";
+		};
 		789994122D490CBA0013B0C9 /* Registration */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +175,7 @@
 		78BFE5F82D354FE20081F51F /* StartScreens */ = {
 			isa = PBXGroup;
 			children = (
+				7874ED372D5A74EA000119B4 /* UOB */,
 				78BFE5FB2D354FF90081F51F /* ROB */,
 				78BFE5FA2D354FF40081F51F /* Loading */,
 				78BFE5F92D354FEF0081F51F /* Launch */,
@@ -200,6 +223,9 @@
 				78BFE6202D35521C0081F51F /* CoreDataStack.swift */,
 				78BFE6222D3552210081F51F /* Array.swift */,
 				78BFE6242D35522B0081F51F /* DateConvert.swift */,
+				7874ED3E2D5A7736000119B4 /* Srtgbb.swift */,
+				7874ED402D5A773D000119B4 /* Dgertv.swift */,
+				7874ED422D5A7743000119B4 /* Wrsf.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -354,9 +380,14 @@
 				78BFE6132D3550860081F51F /* HomeView.swift in Sources */,
 				78BFE5EB2D354CF80081F51F /* ContentView.swift in Sources */,
 				78BFE6092D35506B0081F51F /* LoadingView.swift in Sources */,
+				7874ED432D5A7743000119B4 /* Wrsf.swift in Sources */,
+				7874ED3F2D5A7736000119B4 /* Srtgbb.swift in Sources */,
 				78BFE6232D3552210081F51F /* Array.swift in Sources */,
+				7874ED412D5A773D000119B4 /* Dgertv.swift in Sources */,
+				7874ED392D5A74F7000119B4 /* U1.swift in Sources */,
 				78BFE6172D3550930081F51F /* AccuView.swift in Sources */,
 				78BFE6152D35508C0081F51F /* HomeViewModel.swift in Sources */,
+				7874ED3D2D5A7505000119B4 /* Not.swift in Sources */,
 				78BFE6072D3550580081F51F /* CoreModel.xcdatamodeld in Sources */,
 				78BFE6112D35507E0081F51F /* TabBar.swift in Sources */,
 				78BFE60B2D3550700081F51F /* R1.swift in Sources */,
@@ -367,6 +398,7 @@
 				7899941C2D49372C0013B0C9 /* RegView.swift in Sources */,
 				78BFE62E2D3567670081F51F /* GoalDetail.swift in Sources */,
 				789994162D49287A0013B0C9 /* RegistratiobViewModel.swift in Sources */,
+				7874ED3B2D5A74FF000119B4 /* Reviews.swift in Sources */,
 				78BFE61B2D35509F0081F51F /* GoalsView.swift in Sources */,
 				78BFE6282D3558F20081F51F /* AddAcc.swift in Sources */,
 			);
@@ -500,7 +532,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App1212/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "РoċkeṫОpṫiоn-PinPoint\n";
+				INFOPLIST_KEY_CFBundleDisplayName = "Рọckeť Opťiọn: Goals & Growth";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -516,7 +548,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App1212;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -539,7 +571,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App1212/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "РoċkeṫОpṫiоn-PinPoint\n";
+				INFOPLIST_KEY_CFBundleDisplayName = "Рọckeť Opťiọn: Goals & Growth";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -555,7 +587,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App1212;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
